@@ -17,8 +17,18 @@
   },
   "homepage": "https://github.com/brice-folleas/poc-js#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.13.4",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp-babel": "^8.0.0"
   }
 }
